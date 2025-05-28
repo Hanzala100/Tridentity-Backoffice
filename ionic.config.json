@@ -1,0 +1,7 @@
+{
+  "name": "tridentity-backoffice",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
