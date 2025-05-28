@@ -16,5 +16,6 @@ export class LoginPage implements OnInit {
 
   ngOnInit() {
   }
-
+  togglePassword() {
+  }
 }
