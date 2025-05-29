@@ -19,18 +19,18 @@ export class DashboardPage implements OnInit {
   filteredData: DataItem[] = [];
   paginatedData: DataItem[] = [];
 
-  // Pagination
+
   currentPage: number = 1;
   itemsPerPage: number = 10;
   totalItems: number = 0;
   totalPages: number = 0;
 
-  // Search and Sort
+
   searchTerm: string = '';
   sortColumn: string = '';
   sortDirection: 'asc' | 'desc' = 'asc';
 
-  // Loading state
+
   isLoading: boolean = false;
 
   ngOnInit() {
